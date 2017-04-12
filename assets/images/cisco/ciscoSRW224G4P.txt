@@ -1,0 +1,23 @@
+ 
+price: 225,731.85
+title:Cisco SF 300-24P (SRW224G4P-K9-NA) 24-Port Managed 10/100 PoE Switch, 2x Gigabit, 2x Combo GBIC
+
+Twenty-four 10/100 switched RJ-45 ports with auto medium dependent interface (MDI) and MDI crossover (MDI-X) cable detection
+2 Gigabit ethernet RJ45 ports for 10/100/1000 connectivity
+Twenty-four Power over Ethernet (PoE) ports offering up to 180W output
+2 mini Gigabit Interface Converter (mini-GBIC) slots for fiber and copper Gigabit Ethernet expansion (shared)
+Nonblocking, store-and-forward switching mechanism
+Simplified QoS management enabled by advanced queuing techniques using 802.1p, differentiated services (DiffServ), or type of service (ToS) prioritisation schemes enhances the performance of real-time applications such as voice and video
+Configuration and monitoring from a standard web browser with WebView management
+Secure remote management of the switch via Secure Shell (SSH) and SSL secure channel network protocols
+802.1Q-based VLANs enable segmentation of networks for improved performance and security
+Private VLAN Edge (PVE) for simplified network isolation of guest connections or autonomous networks
+Automatic configuration of VLANs across multiple switches through Generic VLAN Registration Protocol (GVRP) and Generic Attribute Registration Protocol (GARP)
+Automatic port configuration through auto MDI/MDIX and 802.1ab with Link Layer Discovery Protocol (LLDP) and Universal Plug and Play (UPnP) support
+User/network port-level security via 802.1X authentication and MAC-based filtering
+Increased bandwidth (up to 8x) and added link redundancy with Link Aggregation Control Protocol (LACP)
+Enhanced rate-limiting capabilities provide control, including back pressure to control the rate at which data can flow into and out of a port
+Multicasting, broadcasting, and flooding control
+Port mirroring for noninvasive monitoring of switch traffic
+Simple Network Management Protocol (SNMP) versions 1, 2c, and 3 and Remote Monitoring (RMON) support
+Fully rack mountable using the included rack-mounting hardware

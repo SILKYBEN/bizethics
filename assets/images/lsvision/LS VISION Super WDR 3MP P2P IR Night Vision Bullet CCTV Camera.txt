@@ -1,0 +1,12 @@
+[Model:LS-HP300B-F]
+1/3" Progressive Scan CMOS
+3 Megapixel,20fps@960P(2048*1536)
+Super WDR(dynamic range:120 dB):Yes
+ICR dual filtering cut
+Support WDR,image rollovers,privacy shelter,ROI
+Advanced H.264 High Profile Level@4 compressiol
+Built-in surge protection, lighting protection
+P2p support android/ios
+PoE function(optional)
+Bracket optional(Wall mounting/Lifting)
+Support SD card maximum storage 64G (optional)

@@ -1,0 +1,9 @@
+[Model:LS-WK8104M]
+4CH 960P wifi NVR 22" LCD screen kit
+802.11b/g/n ;150Mbps;2.4G wireless
+4CH 960P@15fps video input and 4CH playback
+support HDMI/VGA;1 SATA max 4T
+Support 2 RJ45(1 WAN+1 LAN for IPC with Cable)
+with 3meter  reticle*1;Power adaptor*5;Mouse*1
+Standard with 4pcs 960P IR bullet cameras fixed lens 3.6mm
+( Optional dome cameras )

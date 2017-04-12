@@ -1,0 +1,10 @@
+[Model:LS-NF5104P]
+H.265/H.264 adaptive network camera
+4ch 1080p@30fps(8Mbps)/4ch 3MP@20fps(8Mbps)/4ch 5MP@10fps(8Mbps) video input
+4ch 1080P real time/4CH 3MP@20fps(10Mbps)/2CH 5MP@10fps(10Mbps) Playback
+Support 1 SATA,4ch POE port (IEEE 802.3af),
+1 RJ45 10M / 100M adaptive Ethernet interface
+Two-way voice intercom,
+ONVIF 2.4; P2P Function;
+Alarm mobile phone push
+Intelligent features: 1CH face detection, 2ch boundary analysis

@@ -1,0 +1,16 @@
+[Model No.: LS-FHC200W-P]
+2MP(1920*1080/25fps) IR Bullet camera                                      
+1/2.9"  Progressive Scan  CMOS (Sony)
+Super Low Illumination
+H.264 high,mid,low profile or mjpeg encoding ,dual stream
+Support P2P function and standard ONVIF 2.4 version
+ICR dual filtering cut
+Support WDR,image rollovers,privacy shelter,ROI
+Support D/N image setup model auto switch
+Multiple languages(11 languages)
+Character superimposition system support position vector
+Built-in surge protection, lighting protection
+4pcs array IR leds 15m IR night vision
+Megapixel 3.6/6mm fixed lens
+5MP LENS:4mm lens
+PoE/ DC 12V power supply

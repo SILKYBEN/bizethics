@@ -1,0 +1,9 @@
+[Model No.: LS-FHC301DVIR-P]
+UP to 3 megapixel resolution(2048×1536)
+Max 20fps@3MP(2048×1536)&25/30fps@1080p(1920×1080)
+H.264&MJPEG dual-stream encoding
+Advanced H.264 High Profile Level@4 compression
+Day/Night(ICR)&3D DNR&AWB&AGC&BLC
+Alarm&Audio&RS485 interface(only for Full Function model)
+Support mobile phone monitoring and P2P function
+PoE function

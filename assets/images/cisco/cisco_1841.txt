@@ -1,0 +1,15 @@
+
+The Cisco 1841 Integrated Services Router provides the following support:
+Wire-speed performance for concurrent services at T1/E1 WAN rates
+Enhanced investment protection through increased performance and modularity
+Enhanced investment protection through increased modularity
+Increased density through High-Speed WAN Interface Card Slots (two)
+Support for over 90 existing and new modules
+Support for majority of existing WICs, VWICs, and VICs (data mode only)
+Two Integrated 10/100 Fast Ethernet ports
+Security
+On-board encryption
+Support of up to 800 VPN tunnels with the AIM Module
+Antivirus defense support through Network Admission Control (NAC)
+Intrusion Prevention as well as stateful Cisco IOS Firewall support and many more essential security features
+price:311,354.28

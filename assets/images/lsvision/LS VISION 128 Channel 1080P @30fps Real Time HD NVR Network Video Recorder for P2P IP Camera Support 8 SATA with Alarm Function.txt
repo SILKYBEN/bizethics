@@ -1,0 +1,9 @@
+[Model:LS-NF8128]
+128ch 1080p@30fps(3Mbps)/64ch 1080p@30fps(6Mbps)
+/64ch 3MP@20fps(6Mbps)/64ch 5MP@10fps(6Mbps) video input
+16ch 1080P@30fps real time Playback
+Support 8SATA/1 ESATA
+2 RJ45 10M/100M/1000M self-adaptive Ethernet interfaces
+Two-way voice intercom
+small size: 360x260x48mm
+16CH Alarm Input and 4CH Alarm Output

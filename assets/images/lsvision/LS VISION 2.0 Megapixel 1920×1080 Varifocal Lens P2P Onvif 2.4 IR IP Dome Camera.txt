@@ -1,0 +1,9 @@
+[Model No.: LS-ZD5200C]
+1/2.8" CMOS Sensor
+2 Megapixel, 25/30fps@1080P(1920x1080)    
+2.8-12mm varifocal Lens
+30pcs F5 IR Leds 20m IR distance
+Vandalproof housing
+DC 12V power supply
+P2p support android/ios                                                                    
+Optional: POE IEEE802.3af

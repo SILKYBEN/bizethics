@@ -1,0 +1,13 @@
+[Model:LS-HP500B-F]
+5MP(2592*1920/10fps) IR Bullet camera                                      
+1/2.5"  Progressive Scan  CMOS (Aptina)
+UP to 5 megapixel Super high resolution    (2592×1920)
+Max 10fps@5MP(2592×1920)&25/30fps@1080p(1920×1080)
+H.264&MJPEG dual-stream encoding
+Advanced H.264 High Profile Level@4 compression
+Day/Night(ICR)&3D DNR&AWB&AGC&BLC
+Alarm&Audio&RS485 interface(only for Full Function model)
+Support mobile phone monitoring and P2P function
+PoE function(optional)
+Bracket optional(Wall mounting/Lifting)
+Support SD card maximum storage 64G (optional)

@@ -1,0 +1,8 @@
+Model:LS-NF5216P
+H.265/H.264 adaptive ip camera
+16ch 1080p@30fps(8Mbps)/16ch 3MP@20fps(8Mbps)/16ch 5MP@10fps(8Mbps) video input
+6ch 1080P real time /4CH 3MP@20fps(8Mbps) /2CH 5MP@10fps(8Mbps) Playback
+Support 2SATA, 16ch POE port (IEEE 802.3af) 1 RJ45 10M / 100M/ 1000M  adaptive Ethernet interface
+Two-way voice intercom
+Small size: 360x311.5x48mm
+1CH face detection, 2ch boundary analysis

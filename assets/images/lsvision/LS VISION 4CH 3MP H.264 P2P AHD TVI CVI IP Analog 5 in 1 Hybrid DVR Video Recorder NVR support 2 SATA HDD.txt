@@ -1,0 +1,9 @@
+Model: LS-HVR3204
+Main Processor: HI3520D V300
+support 2 Sata
+Audio 4 ch in / 1 ch out
+Alarm 4 ch in / 1 ch out
+Adjustable mode:
+TVI:4CH 3MP 12fps recording, 2CH 3MP playback;
+HVR:2CH 3MP@12fps TVI + 2CH 3MP@25fps IP recording, 2CH 3MP@25fps playback;
+NVR:4CH 3MP/5MP@25fps IP recording, 4CH 2CH 3MP/1CH 5MP@25fps playback

@@ -1,0 +1,7 @@
+[Model: LS-TF3200B]
+Full HD resolution with Sony IMX322 CMOS sensor
+Up to 300M long distance real time monitoring
+Day/Night (ICR), AWB, AGC, BLC, 2D/3D-DNR, Defog
+WDR, Slow-Shutter, Smart IR, Sense up, Digital Zoom
+Motion Detection, Privacy Mask, Mirror
+OSD menu, TVI / AHD / CVBS adjustable

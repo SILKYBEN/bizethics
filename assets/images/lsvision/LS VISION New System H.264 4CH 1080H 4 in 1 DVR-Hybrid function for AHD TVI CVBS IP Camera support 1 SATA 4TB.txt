@@ -1,0 +1,10 @@
+Model: LS-HVR8104
+4 Channel 4 in 1 DVR-Hybrid for AHD/TVI/CVBS/IPC
+1080H 960*1080
+support 1 Sata;
+audio 4 ch in/ 1 ch out;
+Adjustable mode:
+AHD/TVI/CVBS: 4CH 1080H@25fps recording, 4CH 1080H playback;
+HVR: 2CH 1080H@25fps Analog + 2CH 1080P@25fps IP recording; 1CH 1080P@25fps playback;
+NVR: 4CH 1080P@25fps IP recording; 1CH 1080P@25fps playback;
+Support manual, Auto, Motion detection, Alarm trigger

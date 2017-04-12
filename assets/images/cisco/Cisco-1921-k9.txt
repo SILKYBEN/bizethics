@@ -1,0 +1,11 @@
+
+price:251,608.29
+title:Cisco 1921/K9 Integrated Service Security Router
+2 integrated 10/100/1000 Ethernet ports
+2 enhanced High-Speed WAN Interface Card (EHWIC) slots that can host 2 single wide or 1 double wide EHWIC module
+Fully integrated power distribution to modules supporting 802.3af Power over Ethernet (PoE) and Cisco Enhanced PoE
+Security
+Embedded hardware-accelerated VPN encryption
+Highly secure collaborative communications with Group Encrypted Transport VPN, Dynamic Multipoint VPN, or Enhanced Easy VPN
+Integrated threat control using Cisco IOS Firewall, Cisco IOS Zone-Based Firewall, Cisco IOS IPS, and Cisco IOS Content Filtering
+Identity management with authentication, authorization, and accounting (AAA), and public key infrastructure

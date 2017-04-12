@@ -1,0 +1,7 @@
+[Model: LS-TF4200B]
+Sony IMX322 CMOS sensor and full HD resolution
+Up to 300 M long distance real time monitoring
+Day/night AGC, AWB, BLC (ICR),, 2D/3D-DNR, Defog
+WDR, slow shutter, smart IR, sense, digital zoom
+Motion detection, privacy masking, mirror
+Adjust the OSD menu, TVI/AHD/CVBS
