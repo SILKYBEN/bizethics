@@ -23,11 +23,11 @@ module.exports.connections = {
 
    'default':'bizethicMongodbServer',
 
-        benMongodbServer:{
+        bizethicMongodbServer:{
 
         adapter:'sails-mongo',
         module:'sails-mongo',
-        
+
         url: process.env.DB_URL,
 
         schema    : true
