@@ -27,6 +27,7 @@ module.exports.connections = {
 
         adapter:'sails-mongo',
         module:'sails-mongo',
+        
         url: process.env.DB_URL,
 
         schema    : true
