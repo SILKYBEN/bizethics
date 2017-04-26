@@ -21,6 +21,18 @@
 
 module.exports.connections = {
 
+   'default':'bizethicMongodbServer',
+
+        benMongodbServer:{
+
+        adapter:'sails-mongo',
+        module:'sails-mongo',
+
+        url: process.env.DB_URL,
+
+        schema    : true
+        }
+
   /***************************************************************************
   *                                                                          *
   * Local disk storage for DEVELOPMENT ONLY                                  *
@@ -28,9 +40,9 @@ module.exports.connections = {
   * Installed by default.                                                    *
   *                                                                          *
   ***************************************************************************/
-  localDiskDb: {
-    adapter: 'sails-disk'
-  },
+  // localDiskDb: {
+  //   adapter: 'sails-disk'
+  // },
 
   /***************************************************************************
   *                                                                          *
