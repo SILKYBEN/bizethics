@@ -25,14 +25,14 @@ module.exports.connections = {
 
         bizethicMongodbServer:{
 
-        adapter:'sails-mongo',
+        // adapter:'sails-mongo',
         module:'sails-mongo',
         // url:"mongodb://admin:123456@ds011725.mlab.com:11725/heroku_drfz1ljz",
 
         url: process.env.DB_URL,
 
         schema    : true
-        }
+        },
 
   /***************************************************************************
   *                                                                          *
@@ -69,13 +69,13 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  // someMongodbServer: {
+  // bizethicMongodbServer: {
   //   adapter: 'sails-mongo',
   //   host: 'localhost',
-  //   port: 27017,
-  //   user: 'username', //optional
-  //   password: 'password', //optional
-  //   database: 'your_mongo_db_name_here' //optional
+  //   port: 27017
+  //   // user: 'username', //optional
+  //   // password: 'password', //optional
+  //   // database: 'your_mongo_db_name_here' //optional
   // },
 
   /***************************************************************************
