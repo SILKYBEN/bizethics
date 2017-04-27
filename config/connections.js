@@ -27,10 +27,10 @@ module.exports.connections = {
 
         adapter:'sails-mongo',
         module:'sails-mongo',
-       url:"mongodb://admin:123456@ds123331.mlab.com:23331/heroku_ddvtz4t2",
+        // url:"mongodb://admin:123456@ds123331.mlab.com:23331/heroku_ddvtz4t2",
 
 
-        // url: process.env.DB_URL,
+        url: process.env.DB_URL,
 
         schema    : true
         }
