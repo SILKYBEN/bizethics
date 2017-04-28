@@ -13,7 +13,7 @@ module.exports = {
   		type: 'string',
   		required: true
   	},
-  	Brand: {
+  	brand: {
   		type: 'string',
   		required: true
   	},
