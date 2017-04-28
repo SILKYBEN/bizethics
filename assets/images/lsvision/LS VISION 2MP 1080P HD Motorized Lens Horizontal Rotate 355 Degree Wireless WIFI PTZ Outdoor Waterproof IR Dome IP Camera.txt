@@ -1,7 +1,0 @@
-[Model:LS-WPTZ200]
-1/2.8" SONY HD CMOS, 2.4 megapixe
-Resolution 1280*1080
-Hisilicon 3516C chipset.1080P
-H.264, Onvif ,horizontal rotate 355 degree,            
-6-22mm motorized zoom lens
-WIFI , Wall bracket

@@ -1,9 +1,0 @@
-[Model No.: LS-ZD7200C]
-1/2.8" Sony CMOS Sensor
-2 Megapixel, 25/30fps@1080P(1920x1080)
-3.6mm fixed lens
-8pcs high Energy IR, 15m IR distance
-Weatherproof IP66
-DC 12V power supply
-P2P support android/ios
-Optional: POE IEEE802.3af

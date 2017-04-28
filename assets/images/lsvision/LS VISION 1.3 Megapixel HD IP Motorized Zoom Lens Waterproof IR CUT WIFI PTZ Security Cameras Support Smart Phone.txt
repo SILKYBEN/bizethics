@@ -1,8 +1,0 @@
-[Model:LS-WPT130]
-outdoor wireless PTZ (Pan, Tilt, Zoom) CCTV Camera?
-1/3" HD CMOS, 1.3 megapixel
-Resolution 1280 x 960,
-Hisilicon 3518C chipset. 960P
-H.264, Onvif ,horizontal rotate 355 degree             
-6/8mm megapixel fixed lens
-WIFI , Wall bracket

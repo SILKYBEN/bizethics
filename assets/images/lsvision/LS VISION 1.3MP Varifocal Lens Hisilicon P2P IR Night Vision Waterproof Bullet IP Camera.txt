@@ -1,8 +1,0 @@
-[Model No.: LS-ZB3130E]
-1/3" CMOS Sensor,5-50mm varifocal Lens
-1.3 Megapixel, 20fps@960P(1280x960)
-4pcs IR leds 50-70m IR night vision
-Weatherproof IP66
-DC12V power supply
-P2p support android/ios
-Optional: POE IEEE802.3af
