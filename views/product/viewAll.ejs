@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Home | Biz-Ethics LTD</title>
+    <title>View All | Biz-Ethics LTD</title>
     <link href="/styles/bootstrap.min.css" rel="stylesheet">
     <link href="/styles/font-awesome.min.css" rel="stylesheet">
     <link href="/styles/prettyPhoto.css" rel="stylesheet">
@@ -13,10 +13,6 @@
     <link href="/styles/animate.css" rel="stylesheet">
 	<link href="/styles/main.css" rel="stylesheet">
 	<link href="/styles/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
@@ -86,8 +82,8 @@
 					<div class="col-sm-6">
 						<div class="contactinfo">
 							<ul class="nav nav-pills">
-								<li><a href="#"><i class="fa fa-phone"></i><b>+2348149240238</b></a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i> <b>info@bizethics.com</b></a></li>
+								<li><a href="#"><i class="fa fa-phone"></i> +2348149240238</a></li>
+								<li><a href="#"><i class="fa fa-envelope"></i> info@bizethics.com</a></li>
 							</ul>
 						</div>
 					</div>
@@ -111,7 +107,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="/"><img src="images/home/bizethicslogo.png" alt="" /></a>
+							<a href="/"><img src="/images/home/bizethicslogo.png" alt="" /></a>
 						</div>
 						
 					</div>
@@ -163,8 +159,8 @@
                                         	</ul>
                                         </li>
 										<!-- <li><a href="product-details.html">Product Details</a></li>  -->
-										<li><a href="checkout.html">Checkout</a></li> 
-										<li><a href="cart.html">Cart</a></li> 
+										<li><a href="#">Checkout</a></li> 
+										<li><a href="#">Cart</a></li> 
 										<!-- <li><a href="login.html">Login</a></li>  -->
                                     </ul>
                                 </li> 
@@ -191,74 +187,15 @@
 				</div>
 			</div>
 		</div><!--/header-bottom-->
-	</header><!--/header-->
+	</header>
 	
-	<section id="slider"><!--slider-->
+	<section id="advertisement">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div id="slider-carousel" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#slider-carousel" data-slide-to="0" class="active"></li>
-							<li data-target="#slider-carousel" data-slide-to="1"></li>
-							<li data-target="#slider-carousel" data-slide-to="2"></li>
-							<li data-target="#slider-carousel" data-slide-to="3"></li>
-							<li data-target="#slider-carousel" data-slide-to="4"></li>
-						</ol>
-						
-						<div class="carousel-inner">
-							<div class="item active">
-								<div class="col-sm-4">
-									<h1><span>Biz-Ethics LTD</span></h1>
-									<h2>Your Home of Quality and Affordable Equipment</h2>
-									
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-								<div class="col-sm-8">
-									<img src="images/home/LS-VISION Channel.jpg" class="girl img-responsive" alt="" />
-								</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-12">
-									<img src="images/home/lsvision.png" class="girl img-responsive" alt="" />
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="col-sm-12">
-									<img src="images/home/ls2.jpg" class="girl img-responsive" alt="" />
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-							</div>
-							<div class="item">
-								<div class="col-sm-12 col-md-12 col-lg-12">
-									<img src="images/home/ls1.jpg" class="girl img-responsive" alt="" />
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-							</div>
-							<!--  -->
-							<div class="item">
-								<div class="col-sm-12">
-									<img src="images/home/lsvision.gif" class="girl img-responsive" alt="" />
-									<button type="button" class="btn btn-default get">Get it now</button>
-								</div>
-							</div>
-						</div>
-						
-						<a href="#slider-carousel" class="left control-carousel hidden-xs" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a href="#slider-carousel" class="right control-carousel hidden-xs" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-					
-				</div>
-			</div>
+			<img src="/images/shop/advertisement.jpg" alt="" />
 		</div>
-	</section><!--/slider-->
+	</section>
 	
+
 	<section>
 		<div class="container">
 			<div class="row">
@@ -355,7 +292,7 @@
 						
 										
 						<div class="shipping text-center"><!--shipping-->
-							<img src="images/home/shipping.jpg" alt="" />
+							<img src="/images/home/shipping.jpg" alt="" />
 						</div><!--/shipping-->
 					
 					</div>
@@ -363,24 +300,25 @@
 				
 				<div class="col-sm-9 padding-right">
 					<div class="features_items"><!--features_items-->
-						<h2 class="title text-center">Latest Items</h2>
+						<h2 class="title text-center">our Items</h2>
+						<% _.each(product, function(product) { %>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 										<div class="productinfo text-center">
-											<img src="/images/lsvision/LS VISION 1.3MP Varifocal Lens Hisilicon P2P IR Night Vision Waterproof Bullet IP Camera.jpg" alt="" />
-											<h2>N60,000</h2>
-											<p>LS VISION 1.3MP Varifocal Lens</p>
+											<img src="<%= product.imageName %>" alt="" />
+											<h2>₦ <%= product.amount %></h2>
+											<p><%= product.name %></p>
 											<a href="#" class="btn btn-default add-to-cart"><strong>DETAILS</strong></a>
 										</div>
 										<div class="product-overlay">
 											<div class="overlay-content">
-												<h2>N60,000</h2>
-												<p>Model No.: LS-ZB3130E <br> 1/3" CMOS Sensor <br> 5-50mm varifocal Lens <br>1.3 Megapixel <br> 20fps@960P(1280x960) <br> 4pcs IR leds 50-70m <br>IR night vision <br>Weatherproof IP66 <br> DC12V power supply <br>P2p support android/ios <br>Optional: POE IEEE802.3af</p>
+												<h2>₦ <%= product.amount %></h2>
+												<p><%= product.description %></p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -390,7 +328,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
+						<% }) %>
+						<!-- <div class="col-sm-4">
 							<div class="product-image-wrapper">
 								<div class="single-products">
 										<div class="productinfo text-center">
@@ -406,7 +345,7 @@
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -432,7 +371,7 @@
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -458,7 +397,7 @@
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -484,7 +423,7 @@
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -511,7 +450,7 @@ Two-way voice intercom<br>ONVIF 2.4; P2P Function<br>Alarm mobile phone push<br>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
-									<img src="images/home/new.png" class="new" alt="" />
+									<img src="/images/home/new.png" class="new" alt="" />
 								</div>
 								<div class="choose">
 									<ul class="nav nav-pills nav-justified">
@@ -520,396 +459,14 @@ Two-way voice intercom<br>ONVIF 2.4; P2P Function<br>Alarm mobile phone push<br>
 									</ul>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div><!--features_items-->
-					
-					<div class="category-tab"><!--category-tab-->
-						<div class="col-sm-12">
-							<ul class="nav nav-tabs">
-								<li class="active"><a href="#cisco" data-toggle="tab">Cisco</a></li>
-								<li><a href="#netgear" data-toggle="tab">Netgear</a></li>
-								<li><a href="#" data-toggle="tab">Mikrotik</a></li>
-								<li><a href="#" data-toggle="tab">LS Vision</a></li>
-								<li><a href="#" data-toggle="tab">Ubiquiti</a></li>
-								<li><a href="#" data-toggle="tab">Engenius</a></li>
-								<li><a href="#" data-toggle="tab">Others</a></li>
-							</ul>
-						</div>
-						<div class="tab-content">
-							<div class="tab-pane fade active in" id="cisco" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/cisco/ASA5506-K9.jpg" alt="" />
-												<h2>=N=186,134.10</h2>
-												<p>Cisco ASA5506-K9 Asa 5506X with Firepower</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/cisco/cisco_1841.jpg" alt="" />
-												<h2>=N=311,354.28</h2>
-												<p>Cisco 1841 Integrated Services Router</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/cisco/Cisco-1921-k9.jpg" alt="" />
-												<h2>=N=251,608.29</h2>
-												<p>Cisco 1921/K9 Integrated Service Security Router</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/cisco/Cisco_ASA5505_bun_k9.jpg" alt="" />
-												<h2>=N=207,569.52</h2>
-												<p>Cisco ASA 5505 Adaptive Security Appliance</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="tab-pane fade" id="netgear" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/netgear/NETGEAR - AC1600 Wireless Router with DOCSIS 3.0 Cable Modem - Black.jpeg" alt="" />
-												<!-- <h2>$56</h2> -->
-												<p>NETGEAR - AC1600 Wireless Router with DOCSIS 3.0 Cable Modem - Black</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/netgear/NETGEAR - ProSAFE 24-Port Gigabit Smart Switch - Blue.jpeg" alt="" />
-												<!-- <h2>$56</h2> -->
-												<p>NETGEAR - Nighthawk AC1900 Dual-Band Router with DOCSIS 3.0 Cable Modem - Black</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/netgear/NETGEAR - ProSafe Plus 24-Port Gigabit Ethernet Switch - Gray.jpeg" alt="" />
-												<!-- <h2>$56</h2> -->
-												<p>NETGEAR - ProSafe Plus 24-Port Gigabit Ethernet Switch - Gray</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/netgear/NETGEAR - Wireless-AC1750 Dual-Band Gigabit Router with 4-Port Ethernet Switch - Black.jpeg" alt="" />
-												<!-- <h2>$56</h2> -->
-												<p>NETGEAR - Wireless-AC1750 Dual-Band Gigabit Router with 4-Port Ethernet Switch - Black</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="tab-pane fade" id="mikrotik" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="tab-pane fade" id="kids" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-							
-							<div class="tab-pane fade" id="poloshirt" >
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery2.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery4.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery3.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-3">
-									<div class="product-image-wrapper">
-										<div class="single-products">
-											<div class="productinfo text-center">
-												<img src="images/home/gallery1.jpg" alt="" />
-												<h2>$56</h2>
-												<p>Easy Polo Black Edition</p>
-												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-											</div>
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!--/category-tab-->
-					
-					<div class="recommended_items"><!--recommended_items-->
-						<h2 class="title text-center">recommended items</h2>
-						
-						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="item active">	
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/cisco/pap2t.jpg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>Cisco PAP2T Internet Phone Adapter with 2 VoIP Ports</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/cisco/ciscoSRW224G4P.jpg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>Cisco SF 300-24P (SRW224G4P-K9-NA) 24-Port Managed 10/100 PoE Switch, 2x Gigabit, 2x Combo GBI</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/netgear/NETGEAR - ProSafe Plus 24-Port Gigabit Ethernet Switch - Gray.jpeg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>NETGEAR - Nighthawk AC1900 Dual-Band Router with DOCSIS 3.0 Cable Modem - Black</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">	
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/home/recommend1.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/home/recommend2.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="images/home/recommend3.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
-								<i class="fa fa-angle-left"></i>
-							  </a>
-							  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
-								<i class="fa fa-angle-right"></i>
-							  </a>			
-						</div>
-					</div><!--/recommended_items-->
-					
+					<ul class="pagination">
+							<li class="active"><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">&raquo;</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -1072,6 +629,5 @@ Two-way voice intercom<br>ONVIF 2.4; P2P Function<br>Alarm mobile phone push<br>
 		</div>
 		
 	</footer><!--/Footer-->
-	
 </body>
 </html>

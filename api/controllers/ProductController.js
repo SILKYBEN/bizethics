@@ -11,6 +11,26 @@ module.exports = {
 		res.view();
 	},
 
+	'viewAll': function(req, res, next){
+
+
+				
+	 	Product.find (req.params.all()).sort('id ASC').paginate({page: 2, limit: 6}).exec(function foundProducts(err, product) {
+			if (err) return next(err);
+			req.session.authenticated=true;
+			//if (!user) return next();
+			res.view({
+				product:product
+			});
+			
+			//res.json(user);
+			//res.redirect('/user/show/'+user.id);
+		
+
+	
+		});
+	},
+
 	create : function(req, res, next){
 
 	 	Product.create(req.params.all(), function productCreated(err, product) {
