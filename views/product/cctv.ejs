@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Show Product | Biz-Ethics LTD</title>
+    <title>View All-CCTV | Biz-Ethics LTD</title>
     <link href="/styles/bootstrap.min.css" rel="stylesheet">
     <link href="/styles/font-awesome.min.css" rel="stylesheet">
     <link href="/styles/prettyPhoto.css" rel="stylesheet">
@@ -13,7 +13,7 @@
     <link href="/styles/animate.css" rel="stylesheet">
 	<link href="/styles/main.css" rel="stylesheet">
 	<link href="/styles/responsive.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/images/ico/favicon.ico">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png">
@@ -189,6 +189,13 @@
 		</div><!--/header-bottom-->
 	</header>
 	
+	<section id="advertisement">
+		<div class="container">
+			<img src="/images/shop/advertisement.jpg" alt="" />
+		</div>
+	</section>
+	
+
 	<section>
 		<div class="container">
 			<div class="row">
@@ -292,141 +299,206 @@
 				</div>
 				
 				<div class="col-sm-9 padding-right">
-					<div class="product-details"><!--product-details-->
-						<div class="col-sm-5">
-							<div class="view-product">
-								<img src="<%= product.imageName %>" alt="" />
-								<h3>ZOOM</h3>
+					<div class="category-tab"><!--features_items-->
+						<h2 class="title text-center">our Items</h2>
+						<div class="col-sm-12">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#allProducts" data-toggle="tab">All Products</a></li>
+								<li><a href="#ipCamera" data-toggle="tab">IP/HD/AHD Camera</a></li>
+								<li><a href="#4in1Camera" data-toggle="tab">4 in 1 Camera</a></li>
+								<li><a href="#nvr" data-toggle="tab">NVR/DVR</a></li>
+								<li><a href="#poeSwitch" data-toggle="tab">POE Switches</a></li>
+								<li><a href="#assessories" data-toggle="tab">Assessories</a></li>
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane fade active in" id="allProducts" >
+
+							<% _.each(product, function(product) { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							<% }) %>
+							</div>
+								
+							
+							<div class="tab-pane fade" id="ipCamera" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Legal") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
 							</div>
 							
-
-						</div>
-						<div class="col-sm-7">
-							<div class="product-information"><!--/product-information-->
-								<img src="/images/product-details/new.jpg" class="newarrival" alt="" />
-								<h2><%= product.name %></h2>
-								<p>Varifocal Lens</p>
-								<img src="/images/product-details/rating.png" alt="" />
-								<span>
-									<span>₦ <%= product.amount %></span>
-									<label>Quantity:</label>
-									<input type="text" value="3" />
-									<button type="button" class="btn btn-fefault cart">
-										<i class="fa fa-shopping-cart"></i>
-										Add to cart
-									</button>
-								</span>
-								<p><b>Availability:</b> In Stock</p>
-								<p><b>Brand:</b> <%= product.brand %></p>
-								<p><b>Description: </b> <%= product.description %>
-								<!-- <a href=""><img src="/images/product-details/share.png" class="share img-responsive"  alt="" /></a> -->
-							</div><!--/product-information-->
-						</div>
-					</div><!--/product-details-->
-
-								<div class="recommended_items"><!--recommended_items-->
-						<h2 class="title text-center">recommended items</h2>
-						
-						<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="item active">	
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/cisco/pap2t.jpg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>Cisco PAP2T Internet Phone Adapter with 2 VoIP Ports</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
+							<div class="tab-pane fade" id="hdCamera" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Human Resources") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
 												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
 											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/cisco/ciscoSRW224G4P.jpg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>Cisco SF 300-24P (SRW224G4P-K9-NA) 24-Port Managed 10/100 PoE Switch, 2x Gigabit, 2x Combo GBI</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/netgear/NETGEAR - ProSafe Plus 24-Port Gigabit Ethernet Switch - Gray.jpeg" alt="" />
-													<!-- <h2>$56</h2> -->
-													<p>NETGEAR - Nighthawk AC1900 Dual-Band Router with DOCSIS 3.0 Cable Modem - Black</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
+											
 										</div>
 									</div>
 								</div>
-								<div class="item">	
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/home/recommend1.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/home/recommend2.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="product-image-wrapper">
-											<div class="single-products">
-												<div class="productinfo text-center">
-													<img src="/images/home/recommend3.jpg" alt="" />
-													<h2>$56</h2>
-													<p>Easy Polo Black Edition</p>
-													<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-												</div>
-												
-											</div>
-										</div>
-									</div>
-								</div>
+								<% }%>
+							<% }) %>
 							</div>
-							 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
-								<i class="fa fa-angle-left"></i>
-							  </a>
-							  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
-								<i class="fa fa-angle-right"></i>
-							  </a>			
-						</div>
-					</div><!--/recommended_items-->
+							
+							<div class="tab-pane fade" id="ahdCamera" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Accounting") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
+							</div>
+
+							<div class="tab-pane fade" id="4in1Camera" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Engineering") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
+							</div>
+
+							<div class="tab-pane fade" id="nvr" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Business Development") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
+							</div>
+							<div class="tab-pane fade" id="poeSwitch" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Support") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
+							</div>
+
+							<div class="tab-pane fade" id="assessories" >
+							<% _.each(product, function(product) { %>
+							<% if (product.brand=="Sales") { %>
+								<div class="col-sm-3">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="<%= product.imageName%>" alt="" />
+												<h2>₦ <%= product.amount%></h2>
+												
+												<p><%= product.name%></p>
+												<a href="/product/show/<%= product.id %>" class="btn btn-default add-to-cart"><i class="fa fa-tags"></i><b>DETAILS</b></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<% }%>
+							<% }) %>
+							</div>
+
+
+
+							</div>
+
+						
+					<!-- </div>features_items -->
+				</div><!--/category-tab-->
+
+				<ul class="pagination">
+							<li class="active"><a href="">1</a></li>
+							<li><a href="">2</a></li>
+							<li><a href="">3</a></li>
+							<li><a href="">&raquo;</a></li>
+					</ul>
 					
 				</div>
 			</div>
 		</div>
 	</section>
 	
-		<footer id="footer"><!--Footer-->
+	<footer id="footer"><!--Footer-->
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
@@ -437,11 +509,69 @@
 						</div>
 					</div>
 					<div class="col-sm-7">
+						<!-- <div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe1.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
 						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe2.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe3.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="video-gallery text-center">
+								<a href="#">
+									<div class="iframe-img">
+										<img src="images/home/iframe4.png" alt="" />
+									</div>
+									<div class="overlay-icon">
+										<i class="fa fa-play-circle-o"></i>
+									</div>
+								</a>
+								<p>Circle of Hands</p>
+								<h2>24 DEC 2014</h2>
+							</div>
+						</div> -->
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
-							<img src="/images/home/map.png" alt="" />
+							<img src="images/home/map.png" alt="" />
 							<p><strong>6,9 Mr. BizEtics street, ikeja, Lagos, Nigeria</strong></p>
 						</div>
 					</div>
@@ -525,14 +655,8 @@
 		</div>
 		
 	</footer><!--/Footer-->
-	
 
-  
-    <script src="/js/jquery.js"></script>
-	<script src="/js/price-range.js"></script>
-    <script src="/js/jquery.scrollUp.min.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-    <script src="/js/jquery.prettyPhoto.js"></script>
-    <script src="/js/main.js"></script>
 </body>
 </html>
+
+

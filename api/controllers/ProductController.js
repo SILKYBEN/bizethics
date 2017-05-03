@@ -10,6 +10,23 @@ module.exports = {
 	'new': function (req,res){
 		res.view();
 	},
+	'cctv': function (req,res){
+
+		Product.find (req.params.all()).sort('id DESC').exec(function foundProducts(err, product) {
+			if (err) return next(err);
+			req.session.authenticated=true;
+			//if (!user) return next();
+			res.view({
+				product:product
+			});
+			
+			//res.json(user);
+			//res.redirect('/user/show/'+user.id);
+		
+
+	
+		});
+	},
 
 	'viewAll': function(req, res, next){
 
